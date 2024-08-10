@@ -1,0 +1,1 @@
+export const AllUsersData = ()=>fetch("/api/allusers").then(res=>res.json());
